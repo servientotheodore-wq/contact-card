@@ -1,12 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>Theodore Contact</title>
+<title>Theodore Serviento</title>
+
+<script>
+window.onload = function() {
+  window.location.href = "theodore.vcf";
+};
+</script>
+
+<style>
+body{
+background:#111;
+color:white;
+font-family:Arial;
+text-align:center;
+padding-top:100px;
+}
+
+.card{
+max-width:350px;
+margin:auto;
+background:#222;
+padding:30px;
+border-radius:20px;
+}
+
+.button{
+display:inline-block;
+padding:15px 30px;
+background:#00d4ff;
+color:white;
+text-decoration:none;
+border-radius:10px;
+margin-top:20px;
+}
+</style>
 </head>
+
 <body>
-<h1>Theodore</h1>
-<p>Click below to save my contact.</p>
-<a href="theodore.vcf">Add Contact</a>
+
+<div class="card">
+<h1>Theodore Serviento</h1>
+
+<p>Your contact is downloading...</p>
+
+<p>If it doesn't start automatically:</p>
+
+<a class="button" href="theodore.vcf">
+Save Contact
+</a>
+
+</div>
+
 </body>
 </html>
